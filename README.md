@@ -25,14 +25,6 @@
 *   Una **API Key** de Google Maps Platform con la **Places API** habilitada.
 *   El **Place ID** de tu negocio en Google Maps.
 
-## 🛠️ Instalación
-
-1.  Descarga este repositorio como un archivo `.zip`.
-2.  En tu panel de WordPress, ve a **Plugins > Añadir nuevo > Subir plugin**.
-3.  Sube el archivo `.zip` y haz clic en **Instalar ahora**.
-4.  **IMPORTANTE**: Antes de activar (o justo después), debes configurar tus credenciales (ver sección Configuración).
-5.  Activa el plugin.
-
 ## ⚙️ Configuración
 
 Para que el plugin funcione, necesitas editar el archivo principal `google-reviews-pro.php` e introducir tus credenciales de Google.
@@ -54,6 +46,17 @@ define( 'GRP_PLACE_ID', 'TU_PLACE_ID_AQUI' );
 3.  Reemplaza `'TU_API_KEY_AQUI'` con tu API Key real.
 4.  Reemplaza `'TU_PLACE_ID_AQUI'` con el Place ID de tu negocio.
 5.  Guarda los cambios.
+
+## 🛠️ Instalación
+
+1.  Descarga el archivo google-reviews-pro.php
+2.  Modifica el archivo google-reviews-pro.php para configurar tus credenciales (ver sección Configuración).
+3.  Comprime la carpeta "google-reviews-pro" en un archivo zip.
+4.  **IMPORTANTE**: El archivo .zip debe contener la carpeta "google-reviews-pro" y el archivo google-reviews-pro.php en su interior.
+5.  En tu panel de WordPress, ve a **Plugins > Añadir nuevo > Subir plugin**.
+6.  Sube el archivo `.zip` y haz clic en **Instalar ahora**.
+7.  Activa el plugin.
+
 
 ## 💻 Uso
 
